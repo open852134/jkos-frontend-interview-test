@@ -1,0 +1,22 @@
+.project-icon {  
+  width: 25px;
+  height: 25px;
+  font-size: 25px;
+  display: inline-block;  
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+
+
+  &.icon-doctor {
+    background-image: url("https://bit.ly/2WKE0gW");
+  }
+
+  &.icon-patient {
+    background-image: url("https://bit.ly/3eM8HID");
+  }
+
+  &.icon-town {
+    background-image: url("https://bit.ly/30AF7k7");
+  }
+}
